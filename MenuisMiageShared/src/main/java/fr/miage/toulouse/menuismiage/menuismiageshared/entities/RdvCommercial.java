@@ -5,14 +5,30 @@
  */
 package fr.miage.toulouse.menuismiage.menuismiageshared.entities;
 
-import java.util.Date;
+import java.io.Serializable;
 
 /**
  *
  * @author aubin.sacco
  */
-public class RdvCommercial {
-    private int id;
-    private Date date;
-    private Commercial commercial;
+public class RdvCommercial implements Serializable {
+    private int idAffaire;
+    private String date;
+    private String idCommercial;
+
+    public RdvCommercial(int idAffaire, String date, String idCommercial) {
+        this.idAffaire = idAffaire;
+        this.date = date;
+        this.idCommercial = idCommercial;
+    }
+
+    public int getIdAffaire() {
+        return idAffaire;
+    }
+    
+    
+    
+    
 }
+
+

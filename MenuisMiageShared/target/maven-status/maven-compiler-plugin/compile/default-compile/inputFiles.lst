@@ -1,8 +1,9 @@
 C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\entities\RdvPoseur.java
 C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\entities\RdvCommercial.java
-C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\entities\Commercial.java
+C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\exceptions\AffaireInexistanteException.java
+C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\exceptions\StatutAffaireInvalide.java
 C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\entities\Cheque.java
 C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\entities\Client.java
-C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\entities\Poseur.java
 C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\entities\Affaire.java
 C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\entities\Commande.java
+C:\Users\aubin.sacco\Documents\Aubin\Master 2\Menuis' MIAGE\MenuisMiageShared\src\main\java\fr\miage\toulouse\menuismiage\menuismiageshared\entities\Affaire1.java

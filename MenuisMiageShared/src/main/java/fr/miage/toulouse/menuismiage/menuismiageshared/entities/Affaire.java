@@ -9,32 +9,60 @@ import java.io.Serializable;
 
 /**
  *
- * @author aubin.sacco
+ * Classe regroupant les services relatifs aux affaires et pouvant être exposés à l'extérieur du coeur de l'application.
+ *
+ *
+ * @author Aubin Sacco  <aubin.sacco@toulouse.miage.fr>, MIAGE, Université Paul Sabatier
+ * @version 1.1, 8 dec. 2021
  */
 public class Affaire implements Serializable {
     private int id;
     private String statut;
-    private int idCommercial;
-    private int idPoseur;
     private Cheque cheque1;
     private Cheque cheque2;
     private Commande commande;
+    private RdvCommercial rdvCommercial;
+    private RdvPoseur rdvPoseur;
     private Client client;
+    private String geolocalisation;
 
-    public Affaire(int id, String statut, int idCommercial, int idPoseur, Cheque cheque1, Cheque cheque2, Commande commande, Client client) {
-        this.id = id;
-        this.statut = statut;
-        this.idCommercial = idCommercial;
-        this.idPoseur = idPoseur;
-        this.cheque1 = cheque1;
-        this.cheque2 = cheque2;
-        this.commande = commande;
+    public Affaire(Client client) {
         this.client = client;
     }
-
+    
     public int getId() {
-        return id;
+        return this.id;
     }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    
+    public void setStatut(String statut) {
+        this.statut = statut;
+    }
+
+    public String getStatut() {
+        return statut;
+    }
+
+    public RdvCommercial getRdvCommercial() {
+        return this.rdvCommercial;
+    }
+
+    public void setRdvCommercial(RdvCommercial rdvCommercial) {
+        this.rdvCommercial = rdvCommercial;
+    }
+
+    public void setRdvPoseur(RdvPoseur rdvPoseur) {
+        this.rdvPoseur = rdvPoseur;
+    }
+
+    public RdvPoseur getRdvPoseur() {
+        return rdvPoseur;
+    }
+    
+    
     
     
     

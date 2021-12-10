@@ -14,5 +14,5 @@ import java.util.Date;
 public class RdvPoseur {
     private int id;
     private Date date;
-    private Poseur poseur;
+    private String idPoseur;
 }
